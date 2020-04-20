@@ -30,6 +30,10 @@ while(1)
 {
 	tmpB=0x04;
 }
+	else
+{
+	tmpB=0x00;
+}
 PORTB = tmpB; 
 }	
 return 0;
